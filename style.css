@@ -6,40 +6,48 @@ body{
 }
 
 /*Blade/section styles*/
+
 #hotline{
-	padding: 40px 0 60px 0;
+	padding: 18px 0;
 	background-color: #EA5E5E;
 	color: #fff;
+	font-size: 18px;
 }
 #centers{
-	padding: 40px 0 60px 0;
+	padding: 18px 0;
 	background-color: #E8AA60;
 	color: #fff;
+	font-size: 18px;
 }
 #resources{
-	padding: 40px 0 60px 0;
+	padding: 18px 0;
 	background-color: #E8D560;
 	color: #fff;
+	font-size: 18px;
 }
 #events{
-	padding: 40px 0 60px 0;
-	background-color: #A8D160;
+	padding: 18px 0;
+	background-color: #A8D180;
 	color: #fff;
+	font-size: 18px;
 }
 #figures{
-	padding: 40px 0 60px 0;
+	padding: 18px 0;
 	background-color: #66A8DC;
 	color: #fff;
+	font-size: 18px;
 }
-#sad{
-	padding: 40px 0 60px 0;
+#about{
+	padding: 18px 0;
 	background-color: #A269AC;
 	color: #fff;
+	font-size: 18px;
 }
 #footer{
-	padding: 20px 0;
+	padding: 18px 0;
 	background-color: #333;
 	color: #fff;
+	font-size: 18px;
 
 /* Container style */
 .container {
