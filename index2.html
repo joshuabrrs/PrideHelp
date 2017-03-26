@@ -6,16 +6,27 @@
     <title>PrideHelp</title>
     <link rel="stylesheet" href="button_style.css">
     <link href="style2.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="hsttps://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
-
+    <script src="jquery-3.2.0.min.js"></script>
+    
   </head>
+    
+    <style>
+        .template{
+            display: none;
+        }
+    </style>
+    
   <body>
 <center>
     <section id="hotline">
         <a href="#floating_button_hotline">
         <div class="container" id="floating_button_hotline">
         <h1>HOTLINE</h1>
+             <span><div class="template" id="hotline_close">
+                 <button onClick="goBack()">Go Back</button>
+              </div></span>
             </div>
         </a>
     </section>
@@ -24,6 +35,9 @@
       <a href="#floating_button_centers">
       <div class="container" id="floating_button_centers">
         <h1><a href="/centers.html">CENTERS</a></h1>
+           <span><div class="template">
+              
+              </div></span>
       </div>
         </a>
     </section>
@@ -32,6 +46,10 @@
       <a href="#floating_button_resources">
       <div class="container" id="floating_button_resources" >
         <h1>RESOURCES</h1>
+           <span><div class="template" id="templateID3">
+            <p>hi</p>
+             <button class="close">Go Back</button>
+            </div></span>
       </div>
       </a>
     </section>
@@ -40,6 +58,9 @@
       <a href="#floating_button_events">
       <div class="container" id="floating_button_events">
         <h1>EVENTS</h1>
+           <span><div class="template" id='events_close'>
+              <button class="close">Go Back</button>
+              </div></span>
       </div>
         </a>
     </section>
@@ -48,6 +69,9 @@
       <a href="#floating_button_figures">
       <div class="container" id="floating_button_figures">
         <h1>SAFE SEX</h1>
+           <span><div class="template" id='figures_close'>
+              <button class="close">Go Back</button>
+              </div></span>
       </div>
       </a>
     </section>
@@ -56,11 +80,117 @@
       <a href="#floating_button_sad">
       <div class="container" id="floating_button_sad">
         <h1>FEELING SAD?</h1>
+        
+        <!--This is the content when button is clicked--> 
+          <span><div class="template" id='sad_close' >
+              <button class="close">Go Back</button>
+
+              </div></span>
+          
       </div>
       </a>
     </section>
 </center>
+          
+      
+      <!--Javascript stuff-->
+      
+      
+      <script>
+       $(document).ready(function(){
+                //code to handle website here
+            $("#floating_button_hotline").on('click', function() {
+                $('#floating_button_centers').hide();
+                $('#floating_button_resources').hide();
+                $('#floating_button_events').hide();
+                $('#floating_button_figures').hide();
+                $('#floating_button_sad').hide();
+                $('.template').show();
+                
+               });
+           
+            $("#floating_button_centers").on('click', function() {
+                $('#floating_button_hotline').hide();
+                $('#floating_button_resources').hide();
+                $('#floating_button_events').hide();
+                $('#floating_button_figures').hide();
+                $('#floating_button_sad').hide();
+                $('.template').show();
+               });
+            $("#floating_button_resources").on('click', function() {
+                $('#floating_button_centers').hide();
+                $('#floating_button_hotline').hide();
+                $('#floating_button_events').hide();
+                $('#floating_button_figures').hide();
+                $('#floating_button_sad').hide();
+                $('.template').show();
+               });
+            $("#floating_button_events").on('click', function() {
+                $('#floating_button_centers').hide();
+                $('#floating_button_resources').hide();
+                $('#floating_button_hotline').hide();
+                $('#floating_button_figures').hide();
+                $('#floating_button_sad').hide();
+                $('.template').show();
+               });
+            $("#floating_button_figures").on('click', function() {
+                $('#floating_button_centers').hide();
+                $('#floating_button_resources').hide();
+                $('#floating_button_events').hide();
+                $('#floating_button_hotline').hide();
+                $('#floating_button_sad').hide();
+                
+               });
+           
+           /*buttons to close*/
+               $('#floating_button_hotline').on('click', function() {
+                   $('.template').show();
+               });
+               $('#hotline_close').on("click", function() {
+                   window.history.back();
+               });
+           
+           
+               $('#floating_button_resources').on('click', function() {
+                   $('#templateID3').show(); 
+               });
+               $('.close').on("click", function() {
+                   console.log(window.location.hash);
+                    window.location.hash ='';
+                });
+                   
+                   
+               $('#floating_button_events').on('click', function() {
+                   $('.template').show();
+               });
+               $('#events_close').on("click", function() {
+                   window.location.hash = '';
+               });
+
+           
+                $('#floating_button_figures').on('click', function(){
+                    $('.template').show();
+                    });
+                $('#figures_close').on('click', function(){
+                    window.location.hash = ''; 
+                });
+           
+           
+                $('#floating_button_sad').on('click', function(){
+                    $('.template').show();
+                    });
+                $('#sad_close').on('click', function(){
+                    window.location.hash = '';  
+                });
+        
+           
+              
+            });  /*Important somehow*/
+      </script>
+      
+      
+      
   </body>
 </html>
 Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status
+© 2017 GitHub, Inc. Terms Privacy Security Status 

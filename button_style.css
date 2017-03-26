@@ -104,7 +104,7 @@ a {
 /*events*/
 
 #floating_button_events {
-    position: absolute;
+    position: fixed;
     width: 100%;
     transition: all 2s;
 }
@@ -128,3 +128,91 @@ a {
   top: calc(50% - 0.6em);
   left: calc(50% - 0.1em);
 }
+
+
+/*figures*/
+
+#floating_button_figures {
+    position: fixed;
+    width: 100%;
+    transition: all 2s;
+}
+
+#floating_button_figures:active {
+  background: #2980b9;
+}
+
+#floating_button_figures:target{
+  background:  #66A8DC;
+  width: 200vw;
+  height: 200vw;
+  top: calc(-100vw - 50px);
+  left: calc(-50vw - 50px); 
+}
+
+#floating_button_figures> span {
+  position: fixed;
+  font-size: 2.3em;
+  font-weight: 600;
+  top: calc(50% - 0.6em);
+  left: calc(50% - 0.1em);
+}
+
+
+/*sad*/
+
+#floating_button_sad {
+    position: fixed;
+    width: 100%;
+    transition: all 2s;
+}
+
+#floating_button_sad:active {
+  background: #2980b9;
+}
+
+#floating_button_sad:target{
+  background: #A269AC;
+  width: 200vw;
+  height: 200vw;
+  top: calc(-100vw - 50px);
+  left: calc(-50vw - 50px); 
+}
+
+#floating_button_sad> span {
+  position: fixed;
+  font-size: 2.3em;
+  font-weight: 600;
+  top: 0;
+  left: calc(50% - 0.1em);
+}
+
+
+/*footer*/
+
+#floating_button_footer {
+    position: fixed;
+    width: 100%;
+    transition: all 2s;
+}
+
+#floating_button_footer:active {
+  background: #2980b9;
+}
+
+#floating_button_footer:target{
+  background: #A8D160;
+  width: 200vw;
+  height: 200vw;
+  top: calc(-100vw - 50px);
+  left: calc(-50vw - 50px); 
+}
+
+#floating_button_footer> span {
+  position: fixed;
+  font-size: 2.3em;
+  font-weight: 600;
+  top: calc(50% - 0.6em);
+  left: calc(50% - 0.1em);
+}
+
