@@ -2,52 +2,52 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family:"Oswald", "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-family:"Raleway", "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 /*Blade/section styles*/
 
 #hotline{
-	padding: 18px 0;
+	padding: 20px 0;
 	background-color: #EA5E5E;
 	color: #fff;
-	font-size: 18px;
+	font-size: 20px;
 }
 #centers{
-	padding: 18px 0;
+	padding: 20px 0;
 	background-color: #E8AA60;
 	color: #fff;
-	font-size: 18px;
+	font-size: 20px;
 }
 #resources{
-	padding: 18px 0;
+	padding: 20px 0;
 	background-color: #E8D560;
 	color: #fff;
-	font-size: 18px;
+	font-size: 20px;
 }
 #events{
-	padding: 18px 0;
+	padding: 20px 0;
 	background-color: #A8D180;
 	color: #fff;
-	font-size: 18px;
+	font-size: 20px;
 }
 #figures{
-	padding: 18px 0;
+	padding: 20px 0;
 	background-color: #66A8DC;
 	color: #fff;
-	font-size: 18px;
+	font-size: 20px;
 }
 #about{
-	padding: 18px 0;
+	padding: 20px 0;
 	background-color: #A269AC;
 	color: #fff;
-	font-size: 18px;
+	font-size: 20px;
 }
 #footer{
-	padding: 18px 0;
+	padding: 20px 0;
 	background-color: #333;
 	color: #fff;
-	font-size: 18px;
+	font-size: 20px;
 
 /* Container style */
 .container {
