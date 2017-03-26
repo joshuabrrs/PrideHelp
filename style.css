@@ -8,6 +8,26 @@ body{
 
 /*Blade/section styles*/
 
+p {
+  font-size: 45px;
+}
+
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
 #hotline{
 	padding: 20px 0;
 	background-color: #EA5E5E;
