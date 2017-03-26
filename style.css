@@ -47,3 +47,6 @@ body{
   margin: 0 auto;
   overflow: hidden;
 }
+#map{
+  height: 100%;
+}
