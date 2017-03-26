@@ -9,15 +9,15 @@
     <link href="hsttps://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
     <script src="jquery-3.2.0.min.js"></script>
-    
+
   </head>
-    
+
     <style>
         .template{
             display: none;
         }
     </style>
-    
+
   <body>
 <center>
     <section id="hotline">
@@ -36,7 +36,7 @@
       <div class="container" id="floating_button_centers">
         <h1><a href="/centers.html">CENTERS</a></h1>
            <span><div class="template">
-              
+
               </div></span>
       </div>
         </a>
@@ -80,22 +80,22 @@
       <a href="#floating_button_sad">
       <div class="container" id="floating_button_sad">
         <h1>FEELING SAD?</h1>
-        
-        <!--This is the content when button is clicked--> 
+
+        <!--This is the content when button is clicked-->
           <span><div class="template" id='sad_close' >
               <button class="close">Go Back</button>
 
               </div></span>
-          
+
       </div>
       </a>
     </section>
 </center>
-          
-      
+
+
       <!--Javascript stuff-->
-      
-      
+
+
       <script>
        $(document).ready(function(){
                 //code to handle website here
@@ -106,9 +106,9 @@
                 $('#floating_button_figures').hide();
                 $('#floating_button_sad').hide();
                 $('.template').show();
-                
+
                });
-           
+
             $("#floating_button_centers").on('click', function() {
                 $('#floating_button_hotline').hide();
                 $('#floating_button_resources').hide();
@@ -139,9 +139,9 @@
                 $('#floating_button_events').hide();
                 $('#floating_button_hotline').hide();
                 $('#floating_button_sad').hide();
-                
+
                });
-           
+
            /*buttons to close*/
                $('#floating_button_hotline').on('click', function() {
                    $('.template').show();
@@ -149,17 +149,17 @@
                $('#hotline_close').on("click", function() {
                    window.history.back();
                });
-           
-           
+
+
                $('#floating_button_resources').on('click', function() {
-                   $('#templateID3').show(); 
+                   $('#templateID3').show();
                });
                $('.close').on("click", function() {
                    console.log(window.location.hash);
                     window.location.hash ='';
                 });
-                   
-                   
+
+
                $('#floating_button_events').on('click', function() {
                    $('.template').show();
                });
@@ -167,30 +167,28 @@
                    window.location.hash = '';
                });
 
-           
+
                 $('#floating_button_figures').on('click', function(){
                     $('.template').show();
                     });
                 $('#figures_close').on('click', function(){
-                    window.location.hash = ''; 
+                    window.location.hash = '';
                 });
-           
-           
+
+
                 $('#floating_button_sad').on('click', function(){
                     $('.template').show();
                     });
                 $('#sad_close').on('click', function(){
-                    window.location.hash = '';  
+                    window.location.hash = '';
                 });
-        
-           
-              
+
+
+
             });  /*Important somehow*/
       </script>
-      
-      
-      
+
+
+
   </body>
 </html>
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status 
