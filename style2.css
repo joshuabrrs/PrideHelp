@@ -1,0 +1,51 @@
+/* NAMES AND SHIT*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family:"Oswald", "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+/*Blade/section styles*/
+#hotline{
+	padding: 40px 0 60px 0;
+	background-color: #EA5E5E;
+	color: #fff;
+}
+#centers{
+	padding: 40px 0 60px 0;
+	background-color: #E8AA60;
+	color: #fff;
+}
+#resources{
+	padding: 40px 0 60px 0;
+	background-color: #E8D560;
+	color: #fff;
+}
+#events{
+	padding: 40px 0 60px 0;
+	background-color: #A8D160;
+	color: #fff;
+}
+#figures{
+	padding: 40px 0 60px 0;
+	background-color: #66A8DC;
+	color: #fff;
+}
+#sad{
+	padding: 40px 0 60px 0;
+	background-color: #A269AC;
+	color: #fff;
+}
+#footer{
+	padding: 20px 0;
+	background-color: #333;
+	color: #fff;
+
+/* Container style */
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms P

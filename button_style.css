@@ -1,0 +1,130 @@
+html {
+  background: #000;
+  color: white;
+  font-family: Roboto;
+  font-size: 1.5em;
+  overflow: hidden;
+}
+
+#floating_button_hotline {
+  /*background: #3498db;*/
+  /*border-radius:100vw*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 2s;
+}
+
+#floating_button_hotline:active {
+  background: #2980b9;
+}
+
+#floating_button_hotline:target {/*transition*/
+  background: red;
+  width: 200vw;
+  height: 200vw;
+  top: calc(-100vw - 50px);
+  left: calc(-50vw - 50px);
+}
+
+#floating_button_hotline> span {
+  position: fixed;
+  font-size: 2.3em;
+  font-weight: 600;
+  top: calc(50% - 0.6em);
+  left: calc(50% - 0.1em);
+}
+
+a { 
+  color: white;
+  text-decoration: none;
+}
+
+
+
+/*centers*/
+
+#floating_button_centers {
+    position: fixed;
+    width: 100%;
+    transition: all 2s;
+}
+
+#floating_button_centers:active {
+  background: #2980b9;
+}
+
+#floating_button_centers:target{
+  background: #E8AA60;
+  width: 200vw;
+  height: 200vw;
+  top: calc(-100vw - 50px);
+  left: calc(-50vw - 50px); 
+}
+
+#floating_button_centers> span {
+  position: fixed;
+  font-size: 2.3em;
+  font-weight: 600;
+  top: calc(50% - 0.6em);
+  left: calc(50% - 0.1em);
+}
+
+
+/*resources*/
+
+#floating_button_resources {
+    position: fixed;
+    width: 100%;
+    transition: all 2s;
+}
+
+#floating_button_resources:active {
+  background: #2980b9;
+}
+
+#floating_button_resources:target{
+  background: #E8D560;
+  width: 200vw;
+  height: 200vw;
+  top: calc(-100vw - 50px);
+  left: calc(-50vw - 50px); 
+}
+
+#floating_button_resources> span {
+  position: fixed;
+  font-size: 2.3em;
+  font-weight: 600;
+  top: calc(50% - 0.6em);
+  left: calc(50% - 0.1em);
+}
+
+
+/*events*/
+
+#floating_button_events {
+    position: absolute;
+    width: 100%;
+    transition: all 2s;
+}
+
+#floating_button_events:active {
+  background: #2980b9;
+}
+
+#floating_button_events:target{
+  background: #A8D160;
+  width: 200vw;
+  height: 200vw;
+  top: calc(-100vw - 50px);
+  left: calc(-50vw - 50px); 
+}
+
+#floating_button_events> span {
+  position: fixed;
+  font-size: 2.3em;
+  font-weight: 600;
+  top: calc(50% - 0.6em);
+  left: calc(50% - 0.1em);
+}
